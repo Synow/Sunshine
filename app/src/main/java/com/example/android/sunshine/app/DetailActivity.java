@@ -42,6 +42,8 @@ public class DetailActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent SettingsIntent = new Intent(this, SettingsActivity.class);
+            startActivity(SettingsIntent);
             return true;
         }
 
@@ -68,8 +70,6 @@ public class DetailActivity extends AppCompatActivity {
 
                 ((TextView)rootView.findViewById(R.id.detail_text)).setText(forecastStr);
             }
-
-
 
             return rootView;
         }

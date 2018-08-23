@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Locations_Names">
+        <item>Tel Aviv</item>
+        <item>Jerusalem</item>
+        <item>Eilat</item>
+        <item>Netanya</item>
+        <item>New York</item>
+        <item>Tokyo</item>
+    </string-array>
+    <string-array name="Locations_Codes">
+        <item>293396</item>
+        <item>293198</item>
+        <item>295277</item>
+        <item>294071</item>
+        <item>5106292</item>
+        <item>1850147</item>
+    </string-array>
+</resources>
