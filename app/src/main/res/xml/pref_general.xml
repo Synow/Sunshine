@@ -8,4 +8,10 @@
         android:entryValues="@array/Locations_Codes"
         android:summary="ListPreference summary"
         android:defaultValue="@string/pref_location_value" />
+    <SwitchPreference
+        android:title="@string/pref_metric_title"
+        android:key="@string/pref_metric_key"
+        android:summaryOn="@string/pref_metric_on"
+        android:summaryOff="@string/pref_metric_off"
+        android:defaultValue="true"/>
 </PreferenceScreen>

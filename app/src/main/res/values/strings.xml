@@ -9,6 +9,9 @@
     <string name="pref_location_label">Choose Location</string>
     <string name="pref_location_key" translatable="false">location</string>
     <string name="pref_location_value" translatable="false">293396</string>
-
+    <string name="pref_metric_key">is_metric</string>
+    <string name="pref_metric_on">Metric units</string>
+    <string name="pref_metric_off">Imperial units</string>
+    <string name="pref_metric_title">Unit measures</string>
 
 </resources>
